@@ -55,6 +55,8 @@ module.exports = function (opts) {
     }
 
     if (!opts) { opts = {}; }
+    
+    src.js += fs.readFileSync(_c.ASSETS + "cordovasim/javaFXLocalStorage.js", "utf-8");
 
     src.js += "/*! \n  " + _c.APPNAME +
               " v" + src.info.version + " :: Built On " + new Date() + "\n\n" +
