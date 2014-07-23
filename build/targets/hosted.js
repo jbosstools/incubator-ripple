@@ -28,6 +28,7 @@ module.exports = function (src, baton) {
     baton.take();
 
     var copy = 'mkdir ' + PKG_BUILD_DIR + " &&" +
+               'cp -r ' + _c.ASSETS + "client/cordova " + PKG_BUILD_DIR + " &&" +
                'cp -r ' + _c.ASSETS + "client/images " + PKG_BUILD_DIR + " &&" +
                'cp -r ' + _c.ASSETS + "client/themes " + PKG_BUILD_DIR;
 
