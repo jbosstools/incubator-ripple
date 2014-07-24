@@ -50,6 +50,7 @@ module.exports = function (src, baton) {
 
         fs.writeFileSync(jsDeploy,
             src.js +
+            "window.openDatabase = null;" + // Fixing build for CordovaSim
             "ripple('bootstrap').bootstrap();"
         );
 
