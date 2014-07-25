@@ -97,8 +97,10 @@ module.exports = function (opts) {
     });
 
     if (!opts.noclosure) {
-        src.js += "\n}());";
+        src.js += "\n}());\n";
     }
+
+    src.js += fs.readFileSync(_c.ASSETS + "cordovasim/defaultPreferences.js", "utf-8"); // Loading default preferences for CordovaSim
 
     return src;
 };
