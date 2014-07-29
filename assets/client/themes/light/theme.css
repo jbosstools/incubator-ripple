@@ -536,11 +536,11 @@ input.ui-button { padding: .4em 1em; }
 }
 
 .logo {
-    background-image: url("../../images/ripplelogo.png");
+    /*Removing Ripple logo*/
 }
 
 .about-logo {
-    background-image: url("../../images/ripplelogo.png");
+    /*Need to provide CordovaSim logo*/
 }
 
 .panel-table td {
