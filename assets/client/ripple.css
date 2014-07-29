@@ -1314,3 +1314,13 @@ fieldset {
     margin: 1px 0 0 20px;
 }
 /* END - RIPPLE-76 Warning for "Remote" proxy */
+
+
+
+/*********** CORDOVASIM  START ************/
+
+#upload-file-button {
+    display:none;
+}
+
+/*********** CORDOVASIM  END ************/
