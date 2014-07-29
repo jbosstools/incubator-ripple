@@ -1319,7 +1319,8 @@ fieldset {
 
 /*********** CORDOVASIM  START ************/
 
-#upload-file-button {
+/* Hiding stuff which is not suitable for CordovaSim */
+#upload-file-button, #devices-container, #device-container, #viewport-container {
     display:none;
 }
 
