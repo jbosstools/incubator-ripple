@@ -1324,4 +1324,30 @@ fieldset {
     display:none;
 }
 
+/* Barcode Scanner styles */
+.scanDialog {
+    display:none;
+}
+
+.scanDialog button {
+   float:right;
+}
+
+.skanDialogFieldSet label {
+  float:left;
+  width:25%;
+  margin-right:0.5em;
+  padding-top:0.2em;
+  text-align:right;
+  font-weight:bold;
+}
+
+.skanDialogFieldSet select {
+    width: 305px;
+}
+
+.skanDialogFieldSet input[type=text] {
+    width: 300px;
+}
+
 /*********** CORDOVASIM  END ************/
