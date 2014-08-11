@@ -1332,6 +1332,15 @@ fieldset {
     padding-right: 8px;
 }
 
+/* Exec-dialog styles(Former 'I Haz Cheeseburger') */
+.thick {
+    font-weight:bold;
+}
+
+.red {
+    color: red;
+}
+
 /* Barcode Scanner styles */
 .scanDialog {
     display:none;
