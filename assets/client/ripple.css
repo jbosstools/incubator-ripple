@@ -1320,8 +1320,16 @@ fieldset {
 /*********** CORDOVASIM  START ************/
 
 /* Hiding stuff which is not suitable for CordovaSim */
-#upload-file-button, #devices-container, #device-container, #viewport-container {
+#upload-file-button, #devices-container, #device-container, #viewport-container, #platform-select, #version-select {
     display:none;
+}
+
+/* Platform panel - cordova version container */
+.version-container {
+    font-style: normal;
+    font-weight: bold;
+    display: inline;
+    padding-right: 8px;
 }
 
 /* Barcode Scanner styles */
