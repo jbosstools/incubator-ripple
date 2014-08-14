@@ -4,7 +4,7 @@
  * Prevent appearing of the page with platform choosing options (always cordova 3.0.0)
  *
  */
-if (!localStorage.ripple) {
+if (!customLocalStorage.ripple) {
     var defaultValues = {
         "tinyhippos-ui-application-state-cordova": {
             "id": "tinyhippos-ui-application-state-cordova",
@@ -47,5 +47,5 @@ if (!localStorage.ripple) {
             "prefix": "tinyhippos-"
         }
     };
-    localStorage.setItem('ripple', JSON.stringify(defaultValues));
+    customLocalStorage.setItem('ripple', JSON.stringify(defaultValues));
 }
