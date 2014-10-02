@@ -37,7 +37,7 @@ if (!customLocalStorage.ripple) {
         "tinyhippos-settings-xhr-proxy-setting": {
             "id": "tinyhippos-settings-xhr-proxy-setting",
             "key": "settings-xhr-proxy-setting",
-            "value": "local",
+            "value": "remote",
             "prefix": "tinyhippos-"
         },
         "tinyhippos-settings-xhr-proxy-local-port": {
