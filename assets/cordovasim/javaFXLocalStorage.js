@@ -6,7 +6,7 @@
  * Fortunately fixed for JavaFX 8 (Lombard)
  *
  */ 
-window.localStorage2 = window.localStorage || {
+window.localStorage2 = window.localStorage || window.sessionStorage || {
     setItem: function(key, value) {
         localStorage2[key] = value;
     },
