@@ -98,6 +98,12 @@
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
 				<version>2.5.1</version>
+				<configuration>
+					<appendAssemblyId>false</appendAssemblyId>
+					<descriptors>
+						<descriptor>assembly.xml</descriptor>
+					</descriptors>
+				</configuration>
 				<executions>
 					<execution>
 						<id>create-script-zip</id>
@@ -105,12 +111,6 @@
 						<goals>
 							<goal>single</goal>
 						</goals>
-						<configuration>
-							<appendAssemblyId>false</appendAssemblyId>
-							<descriptors>
-								<descriptor>assembly.xml</descriptor>
-							</descriptors>
-						</configuration>
 					</execution>
 				</executions>
 			</plugin>
